@@ -1,0 +1,48 @@
+# ── CREDENCIAIS E TOKENS ─────────────────────────────────────────────────────
+# CRÍTICO: contém GitHub Personal Access Token — NUNCA versionar
+produtos-entrada/git
+
+# ── CONFIGURAÇÃO LOCAL DO CLAUDE CODE ────────────────────────────────────────
+.claude/
+
+# ── MATERIAIS BRUTOS DE ENTRADA ──────────────────────────────────────────────
+# Contém screenshots, HTML original do produto e arquivos temporários
+produtos-entrada/
+
+# ── DOCUMENTAÇÃO INTERNA ─────────────────────────────────────────────────────
+# Estratégia de negócio, análise competitiva, notas internas
+briefing-ativo.md
+contexto.md
+spec.md
+CLAUDE.md
+START-HERE.md
+CHECKLIST-24H.md
+README.md
+
+# ── SISTEMA DE SKILLS (prompts internos de IA) ───────────────────────────────
+skills/
+skills-base/
+
+# ── COPYS E DOCUMENTOS INTERNOS ──────────────────────────────────────────────
+produtos-modelados/copy-*.md
+produtos-modelados/entregavel-*.md
+produtos-modelados/roteiro-*.md
+produtos-modelados/criativos-*.md
+produtos-modelados/trafego-*.md
+
+# ── SISTEMA OPERACIONAL / EDITORES ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ── NODE.JS (se adicionar no futuro) ─────────────────────────────────────────
+node_modules/
+npm-debug.log*
+
+# ── VARIÁVEIS DE AMBIENTE ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
